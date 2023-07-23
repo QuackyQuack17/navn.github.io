@@ -1,0 +1,246 @@
+.bg-grey{
+    background-color: rgb(221, 221, 221);
+}
+/*BANNER*/
+#banner img{
+    object-fit: cover;
+    object-position:top;
+    width: 100%;
+     height: 400px;  
+}
+#banner{
+    display: flex;
+    position: relative;
+    text-align: center;
+    text-decoration: white;
+}
+#center{
+    text-shadow: 1px 1px black ;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+/*NAV*/
+#navcontain{
+    justify-content: center;
+}
+#button :hover{
+    background-color: rgb(175, 175, 175);
+    border-radius: 5px;
+    
+}
+/*TARGET & INFO*/
+#container{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#container div{
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.target{
+    margin-left: 50px;
+}
+.info ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.info span{
+    font-weight: 500;
+}
+.info i{
+    font-size: 17px;
+}
+/*MORE INFO*/
+#container1{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: auto auto;
+    column-gap: 40px;
+    row-gap: 20px;
+    justify-content: center;   
+}
+#ichi, #ni, #san, #go, #roku{
+    margin-left: 15px;
+}
+
+#six{
+    padding-bottom: 103px;
+}
+.border-box{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 74px auto ;
+    row-gap: 10px;
+}
+.border-box h6{
+    font-size: 17px;
+}
+.nonround{
+    font-size: 30px;
+    text-align: center;
+}
+.inside{
+    grid-column: -3/-1 ;
+    margin-bottom: 50px;
+}
+#bluebar{
+    color: white;
+    background-color: rgba(0,123,255,255);
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 7px;
+}
+.hobby{
+    padding: 10px;
+    display:inline-block;
+    text-align: center;
+    align-items: center;
+}
+.hobby i{
+    width: 40px;
+    height: 40px;
+    color: rgba(0,123,255,255);
+    font-weight: bold;
+    border: 2px solid rgba(0,123,255,255);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px ;
+}
+#round{
+    text-align: center;
+    margin-right: 6px;
+}
+@media screen and (max-width: 991px) {
+     .hobby{padding: 2px;   
+    }
+  }
+.loading1{
+    background: rgba(0,123,255,255);
+    display: inline-block;
+    height: 4px;
+    margin-right: 10px;
+    width: 50px;
+    border-radius: 100px;
+}
+.loading2{
+background: #a5a5a5;
+display: inline-block;
+height: 4px;
+margin-right: 10px;
+width: 50px;
+border-radius: 100px;
+}
+/*CERTI*/
+#Certi{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto ;
+    row-gap: 20px;
+}
+#certi-one, #certi-two{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: 230px;
+   
+}
+
+#certi-two{
+    padding-left: 10px;
+    border-left: 1px solid #d6c08d
+}
+.certificate img{
+    width: 310px;
+}
+.certificate h5{
+    font-size: 19px;
+}
+
+#certi-three{
+    padding-top: 20px;
+    border-top: 1px solid #d6c08d;
+    display: grid;
+    grid-template-columns:  1fr 3fr;
+    grid-template-rows: auto;
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+@media screen and (max-width: 980px) {
+    #certi-one,#certi-two,#certi-three{
+        display: block;
+    }    
+    .certificate img{
+        width: 310px;    
+    }
+    #certi-two{
+        padding-left: 10px;
+    }#certi-two,#certi-one{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto 150px;
+    }
+    
+}
+/*PROJECT*/
+#Project img{
+    object-fit: cover;
+    object-position:top;
+    width: 100%;
+    height: 260px;
+}
+#Project{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: auto;
+    column-gap: 20px;
+    
+} 
+.project-contain{
+    border:1px solid #a5a5a5;
+    display: grid;
+    justify-content: center;
+    grid-template-rows:  265px 7% 30px auto; 
+}
+
+.project{
+    display: inline-flex;
+}
+.project2{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 5px;
+}
+.marg{
+    margin-left: 40px;
+}
+@media screen and (max-width: 993px) {
+    .marg{
+        margin-left: 1px;
+    }
+}
+/**/
+
+.connect li{
+    display:inline;
+    margin-right:40px ;
+}
+.connect{
+    text-align: center;
+  padding-bottom: 30px;
+}
